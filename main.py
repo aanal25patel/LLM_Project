@@ -9,9 +9,9 @@ from langchain.document_loaders import UnstructuredURLLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("LLM Article Analyzer: News Research Tool 📈")
 st.sidebar.title("News Article URLs")
 
 urls = []
